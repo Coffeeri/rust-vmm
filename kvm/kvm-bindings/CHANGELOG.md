@@ -2,6 +2,11 @@
 
 ## Upcoming Release
 
+### Changed
+
+- Updated bindings to Linux v7.3.1. The arm64 `__uint128_t` type alias is no
+  longer exported; the affected fields use `__u128` instead.
+
 ## v0.14.2
 
 ### Added
